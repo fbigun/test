@@ -22,6 +22,7 @@ log_hdlr = SysLogHandler(
   facility=SysLogHandler.LOG_LOCAL5
   )
 console = StreamHandler()
+
 rsyslog = Rfc5424SysLogHandler(
   address=('log.u.rizhiyi.com', 5140),
   socktype=socket.SOCK_STREAM,
