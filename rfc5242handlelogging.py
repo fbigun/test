@@ -46,3 +46,4 @@ log.addHandler(rsyslog)
 
 log.debug('debug message test')
 log.error('error message test')
+log.info('hello info test')
