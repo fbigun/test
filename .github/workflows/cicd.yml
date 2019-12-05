@@ -5,12 +5,7 @@ on:
       - master
     tags:
       - 'v*'
-    paths:
-      - 'robothub/*'
-      - '.github/*'
-      - 'manage.py'
-      - 'setup.cfg'
-      - '.github/*'
+
 jobs:
   Lint:
     runs-on: ubuntu-18.04
