@@ -28,8 +28,7 @@ jobs:
         
     - name: Lint with flake8
       run: |
-        pipenv shell
-        exit
+        pipenv run rfc5242handlelogging.py
 
   deploy_heroku:
     runs-on: ubuntu-18.04
